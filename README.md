@@ -1,6 +1,10 @@
 
 ## 🦙🇧🇷 Alpaca-LoRA-PTBR: Low-Rank LLaMA Instruct-Tuning
 
+<a target="_blank" href="https://colab.research.google.com/github/DominguesM/alpaca-lora-ptbr-7b/blob/main/notebooks/03%20-%20Evaluate.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 </br>
 
 <img align="left" style="margin-right: 20px;" height="120" src="https://huggingface.co/dominguesm/alpaca-lora-ptbr-7b/resolve/main/assets/alpaca_br_juliet_2.jpg">
