@@ -16,7 +16,7 @@ This repository contains the necessary steps to translate the data originally cr
 As the foundation model has not yet been made openly available by **Meta** [(request form)](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform), it is not included in this repository, but you can easily find them by searching on HuggingFace or here on Github. </br> </br>
 
 
-Note: `alpaca data.json` can be found in the repository: [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
+Note: `alpaca_data.json` can be found in the repository: [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 
 
 ## Example outputs
