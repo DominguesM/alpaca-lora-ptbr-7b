@@ -9,7 +9,10 @@
 
 <img align="left" style="margin-right: 20px;" height="120" src="https://huggingface.co/dominguesm/alpaca-lora-ptbr-7b/resolve/main/assets/alpaca_br_juliet_2.jpg">
 
+
 **This model was trained and made available solely and exclusively for research purposes.**
+
+
 
 This repository contains the necessary steps to translate the data originally created by the team responsible for the [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) and also to fine-tune the LLaMA-7b (Meta) model using the [PEFT-LoRA](https://arxiv.org/pdf/2106.09685.pdf) method to adjust only a small number of (extra) parameters. of the model, greatly reducing computational and storage costs.
 
@@ -18,6 +21,12 @@ As the foundation model has not yet been made openly available by **Meta** [(req
 
 Note: `alpaca_data.json` can be found in the repository: [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 
+-------------
+## CHANGELOG
+
+* [**04/04/23**] - I have provided the translated training data. Available in: [HuggingFace Hub](https://huggingface.co/datasets/dominguesm/alpaca-data-pt-br)
+
+------------
 
 ## Example outputs
 
