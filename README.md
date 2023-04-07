@@ -1,7 +1,9 @@
 
 ## 🦙🇧🇷 Alpaca-LoRA-PTBR: Low-Rank LLaMA Instruct-Tuning
 
-<a target="_blank" href="https://colab.research.google.com/github/DominguesM/alpaca-lora-ptbr-7b/blob/main/notebooks/03%20-%20Evaluate.ipynb">
+</br>
+
+<a target="_blank" href="https://colab.research.google.com/github/DominguesM/alpaca-lora-ptbr-7b/blob/main/notebooks/02%20-%20Evaluate.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -24,7 +26,10 @@ Note: `alpaca_data.json` can be found in the repository: [Stanford Alpaca](https
 -------------
 ## CHANGELOG
 
-* [**04/04/23**] - I have provided the translated training data. Available in: [HuggingFace Hub](https://huggingface.co/datasets/dominguesm/alpaca-data-pt-br)
+
+* [**08/04/23**] - HuggingFace Space added. [ [🦙🇧🇷 Alpaca PTBR Space](https://huggingface.co/spaces/dominguesm/alpaca-ptbr-7b) ] 
+* [**07/04/23**] - Removal of the notebook that translated the dataset, inclusion of the translated dataset (dominguesm/alpaca-data-pt-br) in the training notebook.
+* [**04/04/23**] - I have provided the translated training data. Available in: [HuggingFace Hub](https://huggingface.co/datasets/dominguesm/alpaca-data-pt-br).
 
 ------------
 
