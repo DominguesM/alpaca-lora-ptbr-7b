@@ -133,6 +133,11 @@ The validation results on the valid split are summarised here below.
 |800 |	0.831000 |	0.846825|
 |1000 |	0.832000 |	0.842221|
 
+## HF Space
+
+HF Space is available to test a quantized version of the model. It can be accessed at: [Alpaca Instruct 7B Space](https://huggingface.co/spaces/dominguesm/alpaca-ptbr-7b)
+
+![HF Space](./assets/hf_space.png)
 ## Ethical considerations ([LLaMA Model Card](https://github.com/facebookresearch/llama))
 
 **Data**
