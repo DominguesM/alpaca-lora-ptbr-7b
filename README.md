@@ -25,11 +25,32 @@ Note: `alpaca_data.json` can be found in the repository: [Stanford Alpaca](https
 ## CHANGELOG
 
 
+* [**10/04/23**] - Added the Gradio app example, along with making the quantized version of the model available.
 * [**08/04/23**] - HuggingFace Space added. [ [🦙🇧🇷 Alpaca PTBR Space](https://huggingface.co/spaces/dominguesm/alpaca-ptbr-7b) ] 
 * [**07/04/23**] - Removal of the notebook that translated the dataset, inclusion of the translated dataset (dominguesm/alpaca-data-pt-br) in the training notebook.
 * [**04/04/23**] - I have provided the translated training data. Available in: [HuggingFace Hub](https://huggingface.co/datasets/dominguesm/alpaca-data-pt-br).
 
 ------------
+
+## Gradio Example
+
+To run the Gradio example with a quantized version of the model, perform the steps below.
+
+```bash
+$ pip install -r requirements.txt
+$ export ALPACA_MODEL_URI="https://nlprocks.s3.sa-east-1.amazonaws.com/alpaca/7B/alpaca-ptbr-7b.bin"
+$ cd web && gradio app.py
+```
+
+Open in browser `http://127.0.0.1:7860`
+
+*This version of the Gradio app does not support context input.*
+
+## HF Space
+
+HF Space is available to test a quantized version of the model. It can be accessed at: [Alpaca Instruct 7B Space](https://huggingface.co/spaces/dominguesm/alpaca-ptbr-7b)
+
+![HF Space](./assets/hf_space.png)
 
 ## Example outputs
 
@@ -133,11 +154,6 @@ The validation results on the valid split are summarised here below.
 |800 |	0.831000 |	0.846825|
 |1000 |	0.832000 |	0.842221|
 
-## HF Space
-
-HF Space is available to test a quantized version of the model. It can be accessed at: [Alpaca Instruct 7B Space](https://huggingface.co/spaces/dominguesm/alpaca-ptbr-7b)
-
-![HF Space](./assets/hf_space.png)
 ## Ethical considerations ([LLaMA Model Card](https://github.com/facebookresearch/llama))
 
 **Data**
